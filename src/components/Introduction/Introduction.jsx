@@ -3,45 +3,62 @@ import "./introduction.css";
 export default function Introduction() {
   return (
     <section className="introduction">
-      <h2>
-        La sophrologie a été découverte par le neuro psychiatre Alfonso Caycedo
-        en 1960. A l’origine, elle est utilisée dans le milieu hospitalier pour
-        permettre au patient de devenir autonome face à la douleur{" "}
-        <span className="bold">
-          en prenant conscience de leurs sensations corporelles
-        </span>
-        .{" "}
-      </h2>
-      <br />
-      <h3>
-        Depuis elle a évolué et est devenue une technique reconnue pour relâcher
-        le stress et les tensions grâce à la voix du sophrologue, alliant le
-        corps et l’esprit. Elle est basée sur la{" "}
-        <span className="bold">respiration</span>, la relaxation et la
-        visualisation.
-      </h3>
-      <br />
-      <p>
-        Les enfants peuvent ressentir des difficultés face à{" "}
-        <span className="bold">
-          la gestion des émotions, à l’anxiété sociale, au manque de confiance
-          et d’estime de soi, à des difficultés d’apprentissage et de
-          concentration, aux troubles du sommeil, à du stress scolaire, à une
-          hypersensibilité, à une séparation, à des changements
-        </span>
-        .
-      </p>
-      <br />
-      <p>
-        Vous pouvez observer chez vos enfants un comportement alertant face à
-        ces difficultés et à en être démunis.
-        <br />
-        <br /> Restez calme !<br />
-        <br /> Des solutions existent, la sophrologie en est une. A l’aide
-        d’exercices en mouvement, ou statique qui détendent et font prendre
-        conscience du corps, le stress et les émotions sortent progressivement
-        et un état de calme est retrouvé.{" "}
-      </p>
+      <div className="intro__inner">
+        <p className="intro__eyebrow">Comprendre la sophrologie</p>
+        <h2>
+          Une méthode douce pour aider les enfants à retrouver calme et
+          confiance
+        </h2>
+        <p className="intro__lead">
+          La sophrologie a été découverte par le neuro psychiatre Alfonso
+          Caycedo en 1960. D’abord pratiquée en milieu hospitalier pour aider à
+          gérer la douleur{" "}
+          <span className="bold">
+            en prenant conscience des sensations corporelles
+          </span>
+          , elle est aujourd’hui reconnue pour relâcher le stress et les
+          tensions grâce à la voix du sophrologue.
+        </p>
+
+        <div className="intro__tags">
+          <span>Respiration</span>
+          <span>Relaxation</span>
+          <span>Visualisation</span>
+          <span>Corps & esprit</span>
+        </div>
+
+        <div className="intro__grid">
+          <div className="intro__card">
+            <h3>Ce que vivent les enfants</h3>
+            <p>Ils peuvent être confrontés à des défis variés au quotidien :</p>
+            <ul>
+              <li>gestion des émotions et anxiété sociale</li>
+              <li>manque de confiance ou d’estime de soi</li>
+              <li>difficultés d’apprentissage et de concentration</li>
+              <li>troubles du sommeil ou stress scolaire</li>
+              <li>hypersensibilité, séparation ou changements</li>
+            </ul>
+          </div>
+
+          <div className="intro__card intro__card--accent">
+            <h3>Comment la sophrologie aide</h3>
+            <p>
+              Des exercices doux, en mouvement ou statiques, détendent et font
+              prendre conscience du corps. Le stress se libère progressivement,
+              le calme revient.
+            </p>
+            <div className="intro__pill-row">
+              <span className="pill">Respirer</span>
+              <span className="pill">Relâcher</span>
+              <span className="pill">Visualiser</span>
+            </div>
+            <p className="intro__note">
+              Vous observez un comportement alertant ? Restez sereins : des
+              solutions existent et la sophrologie en est une.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
