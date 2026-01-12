@@ -1,3 +1,5 @@
+import Pricing from "../../components/Pricing/Pricing";
+
 export default function BookingPage() {
-  return <>Page de réservation</>;
+  return <Pricing />;
 }

@@ -54,15 +54,6 @@ export default function Navbar() {
               Réservations
             </Link>
           </li>
-          <li>
-            <Link
-              to="/contact"
-              className={`navbar__link navbar__link--cta ${isActive("/contact") ? "active" : ""}`}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contact
-            </Link>
-          </li>
         </ul>
       </div>
     </nav>

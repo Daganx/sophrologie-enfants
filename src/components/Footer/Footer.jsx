@@ -37,9 +37,6 @@ export default function Footer() {
               <Link to="/booking" className="footer__nav-link">
                 Réservations
               </Link>
-              <Link to="/contact" className="footer__nav-link">
-                Contact
-              </Link>
             </nav>
           </div>
 

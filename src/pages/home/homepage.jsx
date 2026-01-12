@@ -11,7 +11,6 @@ export default function HomePage() {
       <Introduction />
       <Usages />
       <SessionFlow />
-      <Footer />
     </>
   );
 }
