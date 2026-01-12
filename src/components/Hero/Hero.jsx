@@ -13,7 +13,11 @@ export default function Hero() {
             émotions, renforcer la confiance et retrouver le calme intérieur.
           </p>
           <div className="hero__actions">
-            <a className="btn btn-primary" href="/booking">
+            <a
+              className="btn btn-primary"
+              href="https://www.brevo.com/fr/features/meetings/"
+              target="newBlank"
+            >
               Prendre rendez-vous
             </a>
             <a className="btn btn-ghost" href="#sessionflow">
