@@ -50,7 +50,7 @@ export default function About() {
                 plus tard la psychologie pour enfants.
               </p>
               <p>
-                Aujourd'hui je pratique tous les jours, cela m'aide à me poser,
+                Aujourd'hui je pratique tous les jours sur moi-même, cela m'aide à me poser,
                 à prendre du recul sur des situations et des émotions et à être
                 plus confiante dans ma vie. Vous l'avez compris, j'adore la
                 sophrologie !
@@ -61,7 +61,7 @@ export default function About() {
           <div className="about__why">
             <h3>Pourquoi les enfants ?</h3>
             <p>
-              Je suis une personne très douce, sensible, empathique et
+              Je travaille depuis 4 ans avec des enfants en situation d'handicap, dans les écoles ( autisme, trouble de l'attention, surdité ). Je suis une personne très douce, sensible, empathique et
               bienveillante. Je perçois leurs émotions et leurs sensibilités.
               J'aime utiliser le jeu et les outils ludiques. C'est une méthode
               simple que j'aimerais leur transmettre pour les aider à se

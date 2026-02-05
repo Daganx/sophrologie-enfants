@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="hero__actions">
             <a
               className="btn btn-primary"
-              href="https://www.brevo.com/fr/features/meetings/"
+              href="https://meet.brevo.com/maella-letot"
               target="newBlank"
             >
               Prendre rendez-vous

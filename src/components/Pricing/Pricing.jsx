@@ -33,13 +33,18 @@ export default function Pricing() {
               <li>Supports audio fournis</li>
               <li>Adapté 3-11 ans</li>
             </ul>
-            <button className="pricing-card__cta">
-              <a
-                href="https://www.brevo.com/fr/features/meetings/"
-                target="newBlank"
-              >
-                Réserver
-              </a>
+            <button
+              type="button"
+              className="pricing-card__cta"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/enfant-individuel",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Réserver
             </button>
           </article>
 
@@ -60,13 +65,18 @@ export default function Pricing() {
               <li>Progression guidée</li>
               <li>Supports récapitulatifs</li>
             </ul>
-            <button className="pricing-card__cta pricing-card__cta--dark">
-              <a
-                href="https://www.brevo.com/fr/features/meetings/"
-                target="newBlank"
-              >
-                Choisir le forfait
-              </a>
+            <button
+              type="button"
+              className="pricing-card__cta pricing-card__cta--dark"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/enfant-forfait-5-seances",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Choisir le forfait
             </button>
           </article>
 
@@ -87,13 +97,18 @@ export default function Pricing() {
               <li>Jeux et mouvements</li>
               <li>Apprentissages partagés</li>
             </ul>
-            <button className="pricing-card__cta">
-              <a
-                href="https://www.brevo.com/fr/features/meetings/"
-                target="newBlank"
-              >
-                Réserver
-              </a>
+            <button
+              type="button"
+              className="pricing-card__cta"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/collectif-enfants",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Réserver
             </button>
           </article>
 
@@ -114,13 +129,50 @@ export default function Pricing() {
               <li>Outils pour l’autonomie</li>
               <li>Supports audio inclus</li>
             </ul>
-            <button className="pricing-card__cta">
-              <a
-                href="https://www.brevo.com/fr/features/meetings/"
-                target="newBlank"
-              >
-                Réserver
-              </a>
+            <button
+              type="button"
+              className="pricing-card__cta"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/adultes",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Réserver
+            </button>
+          </article>
+
+          <article className="pricing-card">
+            <div className="pricing-card__header">
+              <span className="pricing-card__badge">Adultes · forfait 5</span>
+              <div className="pricing-card__price">
+                <span className="price-main">200€</span>
+                <span className="price-note">5 séances</span>
+              </div>
+            </div>
+            <p className="pricing-card__desc">
+              1h : temps de parole, exercices de sophrologie, restitution,
+              enregistrement à pratiquer à la maison.
+            </p>
+            <ul className="pricing-card__list">
+              <li>Accompagnement personnalisé</li>
+              <li>Outils pour l’autonomie</li>
+              <li>Supports audio inclus</li>
+            </ul>
+            <button
+              type="button"
+              className="pricing-card__cta"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/adulte-forfait-5-seances",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Réserver
             </button>
           </article>
 
@@ -142,13 +194,18 @@ export default function Pricing() {
               <li>Objectifs co-construits</li>
               <li>Devis rapide</li>
             </ul>
-            <button className="pricing-card__cta pricing-card__cta--ghost">
-              <a
-                href="https://www.brevo.com/fr/features/meetings/"
-                target="newBlank"
-              >
-                Demander un devis
-              </a>
+            <button
+              type="button"
+              className="pricing-card__cta pricing-card__cta--ghost"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/collectifs-structures",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Demander un devis
             </button>
           </article>
         </div>

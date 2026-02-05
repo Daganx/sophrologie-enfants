@@ -46,6 +46,8 @@ export default function Footer() {
               <span className="footer__icon">📍</span>
               Centre Joïa ou à votre domicile
             </p>
+            <p>62 Boulevard Jean Ingres , Nantes (44) </p>
+            <p>Visio</p>
           </div>
         </div>
 
