@@ -57,8 +57,8 @@ export default function Pricing() {
               </div>
             </div>
             <p className="pricing-card__desc">
-              Programme de 5 séances pour installer durablement les outils, avec
-              une séance à moitié prix.
+              Programme de 5 séances pour installer durablement les outils. Avec
+              une séance à moitié prix. (-50%)
             </p>
             <ul className="pricing-card__list">
               <li>Suivi régulier</li>
@@ -82,9 +82,9 @@ export default function Pricing() {
 
           <article className="pricing-card">
             <div className="pricing-card__header">
-              <span className="pricing-card__badge">Collectif enfants</span>
+              <span className="pricing-card__badge">Duo parents/enfants</span>
               <div className="pricing-card__price">
-                <span className="price-main">20€</span>
+                <span className="price-main">50€</span>
                 <span className="price-note">/ séance</span>
               </div>
             </div>
@@ -93,7 +93,6 @@ export default function Pricing() {
               au calme.
             </p>
             <ul className="pricing-card__list">
-              <li>Petit groupe</li>
               <li>Jeux et mouvements</li>
               <li>Apprentissages partagés</li>
             </ul>
@@ -122,7 +121,7 @@ export default function Pricing() {
             </div>
             <p className="pricing-card__desc">
               1h : temps de parole, exercices de sophrologie, restitution,
-              enregistrement à pratiquer à la maison.
+              enregistrement à pratiquer à la maison. Appel visio disponible.
             </p>
             <ul className="pricing-card__list">
               <li>Accompagnement personnalisé</li>
@@ -148,13 +147,13 @@ export default function Pricing() {
             <div className="pricing-card__header">
               <span className="pricing-card__badge">Adultes · forfait 5</span>
               <div className="pricing-card__price">
-                <span className="price-main">200€</span>
+                <span className="price-main">225€</span>
                 <span className="price-note">5 séances</span>
               </div>
             </div>
             <p className="pricing-card__desc">
               1h : temps de parole, exercices de sophrologie, restitution,
-              enregistrement à pratiquer à la maison.
+              enregistrement à pratiquer à la maison. Avec une séance à moitié prix. (-50%)
             </p>
             <ul className="pricing-card__list">
               <li>Accompagnement personnalisé</li>
@@ -167,6 +166,67 @@ export default function Pricing() {
               onClick={() =>
                 window.open(
                   "https://meet.brevo.com/maella-letot/adulte-forfait-5-seances",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Réserver
+            </button>
+          </article>
+
+          <article className="pricing-card">
+            <div className="pricing-card__header">
+              <span className="pricing-card__badge">Ateliers nature</span>
+              <div className="pricing-card__price">
+                <span className="price-main">20€</span>
+                <span className="price-note">/ séance</span>
+              </div>
+            </div>
+            <p className="pricing-card__desc">
+              45 min : Séance collectives ou individuelles selon les demandes. Lieu en nature ( parc, bord de mer ).
+            </p>
+            <ul className="pricing-card__list">
+              <li>Découverte de la sophrologie</li>
+              <li>Transmission des exercices</li>
+            </ul>
+            <button
+              type="button"
+              className="pricing-card__cta"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/ateliers-nature",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Réserver
+            </button>
+          </article>
+
+          <article className="pricing-card">
+            <div className="pricing-card__header">
+              <span className="pricing-card__badge">Séance de Reiki</span>
+              <div className="pricing-card__price">
+                <span className="price-main">50€</span>
+                <span className="price-note">/ séance</span>
+              </div>
+            </div>
+            <p className="pricing-card__desc">
+              1h : Harmoniser votre aura, nettoyer vos énergies stagnantes. Redynamiser votre corps.
+              Appel visio possible.
+            </p>
+            <ul className="pricing-card__list">
+              <li>Soin personnalisé</li>
+              <li>Bien-être</li>
+            </ul>
+            <button
+              type="button"
+              className="pricing-card__cta"
+              onClick={() =>
+                window.open(
+                  "https://meet.brevo.com/maella-letot/seance-de-reiki",
                   "_blank",
                   "noopener,noreferrer"
                 )

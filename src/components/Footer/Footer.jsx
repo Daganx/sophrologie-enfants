@@ -44,10 +44,9 @@ export default function Footer() {
             <h3 className="footer__title">Lieu d'exercice</h3>
             <p className="footer__location">
               <span className="footer__icon">📍</span>
-              Centre Joïa ou à votre domicile
+              A votre domicile
             </p>
-            <p>62 Boulevard Jean Ingres , Nantes (44) </p>
-            <p>Visio</p>
+            <p>Appel visio</p>
           </div>
         </div>
 

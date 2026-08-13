@@ -73,7 +73,7 @@ export default function SessionFlow() {
 
             <div className="session-flow__contact">
               <p className="contact-text">
-                Besoin de plus de détails ou avez une question ?
+                Besoin de plus de détails ou vous avez une question ?
               </p>
               <div className="contact-info">
                 <a href="tel:0666442135" className="contact-link">
